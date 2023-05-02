@@ -1,0 +1,74 @@
+
+section.text {
+    background-color: rgb(185, 180, 231);
+    animation-name: keyframes1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes keyframes1 {
+    0%  {background-color: rgb(226, 166, 110);}
+    50%  {background-color: rgb(183, 179, 119);}
+    70%  {background-color: rgb(179, 186, 111);}
+    100% {background-color: rgb(170, 153, 65);}
+}
+
+    h4 {
+        
+        color: #5CA17C; /*non-webkit fallback*/
+        background-image: linear-gradient(to bottom, #26BDA6, #FF9F65, #DED37E, #26BDA6);
+        background-size: auto 250%;
+        transition: background-position 0.5s;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        line-height: 200px;
+        background-position: 0 100%;
+          }
+    h4:hover {
+        background-position: 0 0;
+        cursor: pointer;
+        }
+    
+    h2 {
+        color: #5CA17C; /*non-webkit fallback*/
+        background-image: linear-gradient(to bottom, #26BDA6, #FF9F65, #DED37E, #26BDA6);
+        background-size: auto 250%;
+        transition: background-position 0.5s;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        line-height: 200px;
+        background-position: 0 100%;
+    }
+    h2:hover {
+        background-position: 0 0;
+        cursor: pointer;
+    }
+    
+    h1 {
+        color: #5CA17C; /*non-webkit fallback*/
+        background-image: linear-gradient(to bottom, #26BDA6, #FF9F65, #DED37E, #26BDA6);
+        background-size: auto 250%;
+        transition: background-position 0.5s;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        line-height: 200px;
+        background-position: 0 100%;
+    }
+    h1:hover {
+        background-position: 0 0;
+        cursor: pointer;
+    }
+    
+h3 {
+        color: #2b097c; /*non-webkit fallback*/
+        background-image: linear-gradient(to bottom, #a003f4, #1fc7c7, rgb(28, 48, 225), #01fe1a);
+        background-size: auto 250%;
+        transition: background-position 0.5s;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        line-height: 200px;
+        background-position: 0 100%;
+}
+h3:hover {
+        background-position: 0 0;
+        cursor: pointer;
+}
